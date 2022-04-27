@@ -1,56 +1,18 @@
 import React from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
-
-function Nav(props) {
-    const {
-        categories = [],
-        setCurrentCategory,
-        currentCategory,
-    } = props;
 
 
-    const handleClick = (item) => {
-        console.log(item);
-        return item;
-    };
 
+function Nav() {
     return (
-        <header className="flex-row px-1">
-            <h2>
-                <a data-testid="link" href="/">
-                    Grace Dringenburg
-                </a>
-            </h2>
-            <nav>
-                <ul className="flex-row">
-                    <li className="mx-2">
-                        <a data-testid="about" href="#about">
-                            About me
-                        </a>
-                    </li>
-                    <li className={"mx-2"}>
-                        <span onClick={() => handleClick('Contact')}>
-                            Contact
-                        </span>
-                    </li>
-                    {categories.map((category) => (
-                        <li
-                            className={`mx-1 ${currentCategory.name === category.name
-                                }`}
-                            key={category.name}
-                        >
-                            <span
-                                onClick={() => {
-                                    setCurrentCategory(category);
-                                }}
-                            >
-                                {capitalizeFirstLetter(category.name)}
-                            </span>
-                        </li>
-                    ))}
-                </ul>
-            </nav>
-        </header>
+        <nav className="flex-row space-evenly">
+            <ul className="spac-evenly">
+                <li><a href="#About">About Me</a></li>
+                <li><a href="#Projects">Portfolio</a></li>
+                <li><a href="https://docs.google.com/document/d/1R9JLYGuUCZSFg6oAhmfvxJIXrdvQFCxlgH1KJJ7IXNI/edit?usp=sharing">Resume</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+
     );
 }
 
