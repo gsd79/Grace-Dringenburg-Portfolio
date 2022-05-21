@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Grace-Dringenburg-Portfolio/static/css/main.a2061aae.css",
-    "main.js": "/Grace-Dringenburg-Portfolio/static/js/main.de4647ac.js",
+    "main.css": "/Grace-Dringenburg-Portfolio/static/css/main.694c802d.css",
+    "main.js": "/Grace-Dringenburg-Portfolio/static/js/main.ec14e8cd.js",
     "static/js/787.128fc6e9.chunk.js": "/Grace-Dringenburg-Portfolio/static/js/787.128fc6e9.chunk.js",
     "index.html": "/Grace-Dringenburg-Portfolio/index.html",
-    "main.a2061aae.css.map": "/Grace-Dringenburg-Portfolio/static/css/main.a2061aae.css.map",
-    "main.de4647ac.js.map": "/Grace-Dringenburg-Portfolio/static/js/main.de4647ac.js.map",
+    "main.694c802d.css.map": "/Grace-Dringenburg-Portfolio/static/css/main.694c802d.css.map",
+    "main.ec14e8cd.js.map": "/Grace-Dringenburg-Portfolio/static/js/main.ec14e8cd.js.map",
     "787.128fc6e9.chunk.js.map": "/Grace-Dringenburg-Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2061aae.css",
-    "static/js/main.de4647ac.js"
+    "static/css/main.694c802d.css",
+    "static/js/main.ec14e8cd.js"
   ]
 }
