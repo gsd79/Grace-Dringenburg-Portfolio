@@ -105,6 +105,10 @@ header a, footer a{
   letter-spacing: 5px;
 }
 
+header a:hover{
+  color: silver;
+}
+
 button {
   font-size: 1rem;
   text-decoration: none;
@@ -159,6 +163,7 @@ li {
 
 nav a:hover {
   text-decoration: none;
+  color: silver;
 }
 
 nav  li {
@@ -325,9 +330,14 @@ nav li{
 }
 
 #About, #Projects{
-  border: 10px double var(--header) ;
+  /* border: 10px double var(--header) ; */
   padding: 10px;
   border-radius: 5px;  
+}
+
+#About h1, #Projects h1{
+  font: 5em 'windsong';
+  
 }
 
 .project-card{

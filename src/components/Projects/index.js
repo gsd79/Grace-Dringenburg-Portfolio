@@ -14,6 +14,18 @@ function Projects() {
                 <div className="project-card"
                     onMouseEnter={() => setIsShown(true)}
                     onMouseLeave={() => setIsShown(false)}>            
+                        <img src="src\assets\img\Screenshot 2022-05-18 21.54.58.png" alt="workout buddy landing page"/>
+                        {isShown && (                
+                        <div className="project-info">Workout Buddy (Fullstack Workout App) --
+                            <a href="https://github.com/gsd79/Workout-Buddy">GitHub</a> -- <a href="https://fitness-trainer-buddy.herokuapp.com/">Live</a>
+                            </div>
+                        )}
+                </div>
+            </div>
+            <div className="projectBlurb flex-row space-evenly">               
+                <div className="project-card"
+                    onMouseEnter={() => setIsShown(true)}
+                    onMouseLeave={() => setIsShown(false)}>            
                         <img src="https://i.postimg.cc/nF990QFb/Screenshot-2022-03-28-16-19-19.png" alt="butler station landing page"/>
                         {isShown && (                
                         <div className="project-info">Mystery of Butler Station (Fullstack browser game) --
