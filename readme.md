@@ -11,10 +11,10 @@ My name is Grace Dringenburg and I am a full stack development student with an i
 
 ## Link to Portfolio
 https://gsd79.github.io/Grace-Dringenburg-Portfolio/
-![portfolio](./src/assets/img/Screenshot%202022-04-27%2015.47.52.png)
+![portfolio](./src/assets/img/Screenshot%202022-08-10%2013.00.56.png)
 
 
 ## Resume
 
-https://docs.google.com/document/d/1R9JLYGuUCZSFg6oAhmfvxJIXrdvQFCxlgH1KJJ7IXNI/edit
+https://drive.google.com/file/d/1_17U7NQAgK3Zh6KJ1ZyMAc5zxrivjOlS/view?usp=sharing
 
