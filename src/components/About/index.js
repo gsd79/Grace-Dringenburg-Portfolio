@@ -8,7 +8,8 @@ function About() {
 
             <div className="aboutBlurb">
 
-                {/* <p>  My name is Grace Dringenburg and I am a full stack development student with an interest in front end development. I have a Bachelor's of Arts in Journalism and a Master of Business Administration. I am looking for challenging opportunities as I make this pivot in my career. Bellow are examples of my work and the links will point you in the direction of my relavent contact details.</p> */}
+                <p> I am a burgeoning frontend web developer with a background in creative writing. Recently obtained a certificate in full stack development from Butler University Executive Education Bootcamp. I am deeply proficient in HTML, CSS, Javascript and various frameworks that contribute to an optimized user experience. I’ve had hands-on experience building various applications including a MERN stack SPA and a full stack roleplaying game utilizing the MVC structure. I enjoy working in teams as well as being self-sufficient in solo projects and tasks. Always looking to build on my knowledge and stay current with the latest techniques. I am looking forward to new opportunities that offer exciting challenges. Thank you for your consideration. 
+</p>
             </div>
         </section>
     )

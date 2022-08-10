@@ -14,7 +14,7 @@ function Projects() {
                 <div className="project-card"
                     onMouseEnter={() => setIsShown(true)}
                     onMouseLeave={() => setIsShown(false)}>            
-                        <img src="src\assets\img\Screenshot 2022-05-18 21.54.58.png" alt="workout buddy landing page"/>
+                        <img src="https://i.postimg.cc/3rWgh6Tw/Screenshot-2022-05-21-01-01-25.png" alt="workout buddy landing page"/>
                         {isShown && (                
                         <div className="project-info">Workout Buddy (Fullstack Workout App) --
                             <a href="https://github.com/gsd79/Workout-Buddy">GitHub</a> -- <a href="https://fitness-trainer-buddy.herokuapp.com/">Live</a>
